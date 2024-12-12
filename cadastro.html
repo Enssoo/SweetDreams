@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cadastro</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="cadastro.css" media="screen">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		<a href="https://www.flaticon.com/free-icons/macaron" title="macaron icons"></a>
+		
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
+			@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+IN:wght@100..400&display=swap');
+		</style>
+	</head>
+	<body>
+		<form> 
+			<fieldset>
+					<h2>Cadastro</h2>
+					<table border="0">
+						<tr>
+							<td><label for="nome">Nome Completo</label></td>
+							<td><label for="email">Email</label></td>
+						</tr>
+							
+						<tr>
+							<td><input type="text" id="nome" class="campo" name="nome" placeholder="Insira seu nome completo" required=""></td>
+							<td><input type="email" id="email" class="campo" name="email" placeholder="exemplo@gmail.com" required=""></td>				
+						</tr>	
+								
+						<tr>
+							<td><label for="date">Data de nascimento</label></td>
+							<td><label for="tel">Telefone</label></td>
+						</tr>	
+								
+						<tr>	
+							<td><input type="date" id="date" class="campo" required=""></td>
+							<td><input type="tel" id="tel" class="campo" name="fone" placeholder="(00) 00000-0000" required=""></td>
+						</tr>
+						
+						<tr>
+							<td><label for="cep">CEP</label></td>
+							<td><label for="rua">Rua</label></td>
+						</tr>	
+								
+						<tr>	
+							<td><input type="text" id="cep" class="campo" placeholder="00000-000" required=""></td>
+							<td><input type="text" id="rua" class="campo" placeholder="Informe sua rua" required=""></td>
+						</tr>
+				
+						<tr>
+							<td><label for="numero">Número</label></td>
+							<td><label for="complemento">Complemento</label></td>
+						</tr>	
+								
+						<tr>	
+							<td><input type="text" id="numero" class="campo" placeholder="Informe o número da residência" required=""></td>
+							<td><input type="text" id="complemento" class="campo" placeholder="Bloco 0 Apto 0"></td>
+						</tr>	
+								
+						<tr>
+							<td><label for="senha">Senha</label></td>
+							<td><label for="confirme">Confirme sua Senha</label></td>
+						</tr>	
+								
+						<tr>	
+							<td><input type="password" id="senha" class="campo" placeholder="********" required=""></td>
+							<td><input type="password" id="confirme" class="campo" placeholder="********" required=""></td>
+						</tr>	
+				    </table>	
+				<input class="button" id="enviar" type="submit" value="Enviar">
+				<input class="button" id="cancelar" type="reset" value="Cancelar">
+			</fieldset>	
+		</form>
+	</body>
+</html>
