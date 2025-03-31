@@ -1,0 +1,213 @@
+body{
+	background-color: #fff1f0;
+}
+
+.table{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	width: 75%; 
+}
+
+.img{
+	width: 100%;
+}
+
+h2{
+	font-family: "Playwrite IN", cursive;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 50px;
+	margin-left: 9%;
+	text-align: left;
+}
+
+.cabecalho{
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 35px;
+}
+
+td{
+	font-family: "Josefin Sans", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+	font-size: 22px;
+	width: 250px;
+	text-align: center;
+}
+
+.volta{
+	color: black;
+	font-size: 70px;
+}
+
+.tirab{
+	border: none;
+	background: #fff4f3;
+	cursor: pointer;
+	font-size: 20px;
+	margin-top: 0;
+}
+
+hr{
+	width: auto;
+	height: 1px;
+	background-color: black;
+	border-width: 0.5px;
+}
+
+.info{
+	text-align: left;
+	font-size: 30px;
+}
+
+.texto{
+	font-family: "Josefin Sans", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+	background-color: #cfcfcf;
+	width: 20%;
+	padding: 3px;
+	font-size: 20px;
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;
+	text-align: center;
+}
+
+#botao{
+	margin-top: 2%;
+}
+
+
+.button{
+	font-family: "Josefin Sans", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+	font-size: 25px;
+	border: none;
+	border-radius: 25px;
+	background: #ffc6c3;
+	padding: 20px 80px;
+	margin-left: 22%;
+	cursor: pointer;
+	box-shadow: 3px 3px px rgb(0,0,0,0.2);
+}
+
+@media screen and (max-width: 1024px) {
+    .table {
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 40px;
+        margin-left: 5%;
+    }
+
+    .cabecalho {
+        font-size: 30px;
+    }
+
+    td {
+        font-size: 18px;
+        width: auto;
+        padding: 8px;
+    }
+
+    .info {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .table {
+        width: 95%;
+        margin-top: 2%;
+    }
+
+    h2 {
+        font-size: 35px;
+        margin-left: 3%;
+        text-align: center;
+    }
+
+    .cabecalho {
+        font-size: 25px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    td {
+        font-size: 16px;
+        padding: 6px;
+    }
+
+    .volta {
+        font-size: 50px;
+    }
+
+    .tirab {
+        font-size: 18px;
+    }
+
+    .info {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .texto {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .button {
+        width: 100%;
+        margin-left: 0;
+        padding: 15px 40px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h2 {
+        font-size: 30px;
+    }
+
+    .cabecalho {
+        font-size: 20px;
+    }
+
+    td {
+        font-size: 14px;
+        padding: 4px;
+    }
+
+    .volta {
+        font-size: 40px;
+    }
+
+    .tirab {
+        font-size: 16px;
+    }
+
+    .info {
+        font-size: 18px;
+    }
+
+    .texto {
+        width: 70%;
+        font-size: 16px;
+    }
+
+    .button {
+        font-size: 18px;
+        padding: 10px 30px;
+    }
+}
